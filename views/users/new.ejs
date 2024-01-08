@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EJS Form Example</title>
+</head>
+<body>
+  <h1>Simple EJS Form</h1>
+  <form action="/users" method="POST">
+    <label for="firstName">First Name:
+    <input type="text" name="firstName" value = "<%= firstName %>"></label>
+    <br>
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
